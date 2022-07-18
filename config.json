@@ -1,0 +1,65 @@
+{
+    "access-log-file": null,
+    "access-password": null,
+    "algo-ext": true,
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 443,
+        "access-token": null,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        {
+            "host": "216.185.48.227",
+            "port": 45786,
+            "tls": false,
+			"login":"Selcocversibaru" ,
+			"password": "R9h2PcE"
+        },
+    ],
+    "colors": true,
+    "title": true,
+    "custom-diff": 0,
+    "custom-diff-stats": false,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "algo": "rx/0",
+            "coin": null,
+            "url": "us-west.minexmr.com:4444",
+            "user": "86hYWU26WqwLDfwhr5Aef6Q9Fk8QEJSCyapiP7E2qwhVHnUGxS9oYMTNUFffPVvWWsGgykp96YwdKTjmR7xKGKqn435TMDA",
+            "pass": "x",
+            "rig-id": "colab",
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 0,
+    "tls": {
+        "enabled": true,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "user-agent": null,
+    "syslog": false,
+    "verbose": false,
+    "watch": true,
+    "workers": true
+}
